@@ -1,0 +1,30 @@
+#div-sex {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    gap: 1rem;
+}
+#div-cc {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+}
+#div-idade {
+    display: flex;
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+#div-botao {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+#botao {
+    width: 100px;
+    height: 30px;
+}
+#res {
+    text-align: center;
+}

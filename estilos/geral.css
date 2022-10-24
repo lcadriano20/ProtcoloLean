@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+h1 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+main {
+    grid-area: main;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: gray;
+    height: 37rem;
+    width: 39rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    align-items: center;
+}
+input[type="number"] {
+    position: absolute;
+    right: 50%;
+}
+ul {
+    padding-right: 10px;
+    display: flex;
+    list-style-type: none;
+}
+li {
+ padding: 10px;
+}
+#rescc {
+    position: absolute;
+    left: 58%;
+}
